@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="github"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/veux/addison" name="AswinOP/android_device_xiaomi_veux.git" remote="github" revision="matrixx" />
+
+ <!--Kernel -->
+ <project path="kernel/veux/sm6375" name="aswinop/kernel_xiaomi_sm6375.git" remote="github" revision="inline" />
+ 
+ <!--Vendor -->
+ <project path="vendor/veux" name="aswinop/vendor_xiaomi_veux" remote="gitlab" revision="udc" />
+ 
+
+</manifest>
