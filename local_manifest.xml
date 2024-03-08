@@ -5,6 +5,6 @@
             fetch="https://github.com/umonuohlyan70"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="my" revision="testing" />
+ <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="my" revision="matrixx" />
 
 </manifest>
