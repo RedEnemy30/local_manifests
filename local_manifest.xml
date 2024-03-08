@@ -2,7 +2,7 @@
 <manifest>
  <!-- Remotes -->
     <remote name="my"
-            fetch="https://github.com/umonuohlyan70"
+            fetch="https://github.com/monuohlyan70"
             clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="my" revision="matrixx" />
