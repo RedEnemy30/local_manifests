@@ -2,7 +2,7 @@
 <manifest>
  <!-- Remotes -->
     <remote name="my"
-            fetch="https://github.com/monuohlyan70"
+            fetch="https://github.com/AswinOP"
             clone-depth="1" />
      <remote name="cl"
             fetch="https://gitlab.com/crdroidandroid" />
