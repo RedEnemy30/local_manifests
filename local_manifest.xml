@@ -10,7 +10,7 @@
      <remote name="cl"
             fetch="https://gitlab.com/crdroidandroid" />
  <!--Tree -->
- <project path="device/xiaomi/veux" name="device_xiaomi_peux" remote="me" revision="fourteen" />
+ <project path="device/xiaomi/veux" name="device_xiaomi_peux" remote="my" revision="fourteen" />
 
   <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
