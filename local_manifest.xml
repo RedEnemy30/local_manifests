@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="my"
-            fetch="https://github.com/monuohlyan70"
+    <remote name="me"
+            fetch="https://github.com/RedEnemy30"
             clone-depth="1" />
     <remote name="matrix"
             fetch="https://github.com/Matrixx-Devices"
@@ -34,7 +34,7 @@
  <project path="vendor/xiaomi/miuicamera-veux" name="vendor_xiaomi_miuicamera-veux" remote="p+" revision="main" />
  
  <!--HARDWARE -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="my" revision="fourteen" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-21" />
  
  <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
