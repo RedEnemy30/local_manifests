@@ -4,37 +4,23 @@
     <remote name="my"
             fetch="https://github.com/monuohlyan70"
             clone-depth="1" />
-    <remote name="matrix"
-            fetch="https://github.com/Matrixx-Devices"
+    <remote name="mv"
+            fetch="https://github.com/muralivijay"
             clone-depth="1" />
-    <remote name="p+"
-            fetch="https://github.com/Positron-B"
+    <remote name="cl"
+            fetch="https://gitlab.com/crdroidandroid" 
             clone-depth="1" />
-    <remote name="snow"
-            fetch="https://github.com/AswinOP"
-            clone-depth="1" />
-     <remote name="cl"
-            fetch="https://gitlab.com/crdroidandroid" />
  <!--Tree -->
- <project path="device/xiaomi/veux" name="device_xiaomi_veux" remote="snow" revision="fourteen" />
+ <project path="device/xiaomi/spes" name=" android_device_xiaomi_spes" remote="mv" revision="13.0" />
 
  <!--Vendor -->
- <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="snow" revision="fourteen" />
- 
- <!--Kernel -->
- <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="snow" revision="thirteen" />
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="mv" revision="13.0" />
 
- <!--SM6375 -->
- <project path="kernel/xiaomi/sm6375" name="kernel_xiaomi_sm6375" remote="snow" revision="fourteen" />
- 
- <!--MIUI CAM -->
- <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="p+" revision="main" />
- 
- <!--MIUI CAM -->
- <project path="vendor/xiaomi/miuicamera-veux" name="vendor_xiaomi_miuicamera-veux" remote="p+" revision="main" />
+ <!--SM6225 -->
+ <project path="kernel/xiaomi/sm6225" name="kernel_xiaomi_sm6225" remote="mv" revision="main" />
  
  <!--HARDWARE -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="my" revision="fourteen" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="mv" revision="lineage-20" />
  
  <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
